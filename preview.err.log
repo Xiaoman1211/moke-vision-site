@@ -1,0 +1,27 @@
+[2m14:27:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m14:27:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mInvalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[2m14:27:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31m[Unhandled error] [1mTypeError[22m: Cannot read properties of null (reading 'useRef')
+[39m > exports.useRef node_modules/react/cjs/react.development.js:1260:33
+ > BrowserRouter node_modules/.vite/deps/react-router-dom.js?v=97b4c75e:7158:32
+ > Object.react_stack_bottom_frame node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:13046:12
+ > renderWithHooks node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:4391:19
+ > updateFunctionComponent node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:5747:16
+ > beginWork node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:6318:20
+ > runWithFiberInDEV node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:1029:66
+ > performUnitOfWork node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:8607:92
+ > workLoopSync node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:8503:37
+ > renderRootSync node_modules/.vite/deps/react-dom_client.js?v=df7f3cdf:8487:6
+
+[2m14:27:51[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mAn error occurred in the <BrowserRouter> component.
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+
